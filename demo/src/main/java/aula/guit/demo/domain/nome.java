@@ -5,6 +5,25 @@ public class nome {
     String idade;
     String cpf;
 
+    String loguin;
+    String senha;
+
+    public String getLoguin() {
+        return loguin;
+    }
+
+    public void setLoguin(String loguin) {
+        this.loguin = loguin;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
     public String getNome() {
         return nome;
     }
